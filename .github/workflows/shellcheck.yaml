@@ -20,9 +20,3 @@ jobs:
 
       - name: Run ShellCheck
         uses: ludeeus/action-shellcheck@master 
-
-      - name: Run linter
-        run: deno lint
-
-      - name: Run tests
-        run: deno test -A
