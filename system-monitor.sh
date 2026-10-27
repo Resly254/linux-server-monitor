@@ -1,3 +1,5 @@
+#!/bin/bash
+
 LOG_FILE="$(dirname "$0")/logs/health.log"
 SERVER_IP="1.1.1.1"
 
